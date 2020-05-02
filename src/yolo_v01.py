@@ -19,9 +19,9 @@ import numpy as np
 
 class YOLO(object):
     _defaults = {
-        "model_path": 'C:\\Users\\little_rukusio\\PycharmProjects\\spot2\\SPOT\\yolov3\\keras-yolo3\\model_data\\yolo_weights.h5',
-        "anchors_path": 'C:\\Users\\little_rukusio\\PycharmProjects\\spot2\\SPOT\\yolov3\\keras-yolo3\\model_data\\yolo_anchors.txt',
-        "classes_path": 'C:\\Users\\little_rukusio\\PycharmProjects\\spot2\\SPOT\\yolov3\\keras-yolo3\\model_data\\coco_classes.txt',
+        "model_path": 'model_data/yolo_weights.h5',
+        "anchors_path": 'model_data/yolo_anchors.txt',
+        "classes_path": 'model_data/coco_classes.txt',
         "score" : 0.3,
         "iou" : 0.45,
         "model_image_size" : (416,416),
